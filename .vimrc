@@ -32,10 +32,12 @@ set nobackup
 set nowritebackup
 set noswapfile
 set cursorline
+set clipboard=unnamedplus
 "highlight ColorColumn ctermbg=233
 
 " Customize view
-sy on
+filetype plugin on
+syntax on
 set t_Co=256
 colorscheme lucius
 LuciusDark
@@ -72,6 +74,10 @@ let NERDTreeIgnore+=['.*\.out$']
 let NERDTreeIgnore+=['.*\.so$', '.*\.a$']
 let NERDTreeIgnore+=['.*\.pyc\']
 let NERDTreeIgnore+=['.*\.class$']
+let g:NERDTreeChDirMode = 2
+
+" Ctrl+P
+let g:ctrlp_working_path_mode = 'rw'
 
 " Bufexplorer options
 let g:bufExplorerSplitBelow=1
@@ -104,5 +110,8 @@ autocmd FileType c,cpp,h,java,python nested :TagbarOpen
 autocmd BufWritePost .vimrc source $MYVIMRC
 
 " Session autosave
-let g:session_autosave = 1
-let g:session_autoload = 1
+let g:session_autosave = 'yes'
+let g:session_autoload = 'yes'
+let g:session_autosave_periodic = 5
+let g:session_default_to_last = 1
+" let g:session_menu = 0

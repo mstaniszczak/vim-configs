@@ -43,3 +43,21 @@
 [submodule "themes/lucius"]
 	path = themes/lucius
 	url = git@github.com:jonathanfilip/vim-lucius.git
+[submodule ".vim/bundle/vim-nerdtree-tabs"]
+	path = .vim/bundle/vim-nerdtree-tabs
+	url = git@github.com:jistr/vim-nerdtree-tabs.git
+[submodule ".vim/bundle/nerdtree-git-plugin"]
+	path = .vim/bundle/nerdtree-git-plugin
+	url = git@github.com:Xuyuanp/nerdtree-git-plugin.git
+[submodule ".vim/bundle/gundo"]
+	path = .vim/bundle/gundo
+	url = git@github.com:sjl/gundo.vim.git
+[submodule ".vim/bundle/vim-abolish"]
+	path = .vim/bundle/vim-abolish
+	url = git@github.com:tpope/vim-abolish.git
+[submodule ".vim/bundle/vim-bookmarks"]
+	path = .vim/bundle/vim-bookmarks
+	url = git@github.com:MattesGroeger/vim-bookmarks.git
+[submodule ".vim/bundle/ctrlp"]
+	path = .vim/bundle/ctrlp
+	url = git@github.com:kien/ctrlp.vim.git

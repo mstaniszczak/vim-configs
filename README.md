@@ -9,6 +9,8 @@ These are the used Vim plugins:
 * **bufexplorer**: Easily show the list of buffers and switch between them.
 * **jedi-vim**: Autocomplete for Python.
 * **nerdtree**: The file explorer.
+* **nerdtree-tabs**: Tabs from NerdTree
+* **nerdtree-git-plugin**: git integration woth NerdTree
 * **tagbar**: To show the structure of the files and easily jump to variables, methods, etc.
 * **tcomment**: Useful to comment/uncomment code.
 * **vim-airline**: A fantastic status bar.
@@ -19,6 +21,10 @@ These are the used Vim plugins:
 * **vim-signify**: Show the git stats when editing files.
 * **xmledit**: Automatically close tags in xml files.
 * **vim-session**: For storing session.
+* **ctrlp**: full path fuzzy finder.
+* **gundo**: better undo.
+* **abolish**: better search/replace.
+* **vim-bookmarks**: bookmarks.
 
 Prerequisites
 -------------
