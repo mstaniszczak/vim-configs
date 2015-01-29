@@ -2,6 +2,7 @@
 runtime bundle/vim-pathogen/autoload/pathogen.vim
 execute pathogen#infect()
 autocmd! bufwritepost .vimrc source %
+set autoread
 
 " Use :help <option> to see the docs
 set bs=2
@@ -72,9 +73,11 @@ let NERDTreeIgnore=['.*\.o$']
 let NERDTreeIgnore+=['.*\~$']
 let NERDTreeIgnore+=['.*\.out$']
 let NERDTreeIgnore+=['.*\.so$', '.*\.a$']
-let NERDTreeIgnore+=['.*\.pyc\']
+let NERDTreeIgnore+=['.*\.pyc$']
 let NERDTreeIgnore+=['.*\.class$']
-let g:NERDTreeChDirMode = 2
+let NERDTreeIgnore+=['.*\.egg-info$']
+let NERDTreeChDirMode = 2
+let NERDTreeWinSize = 45
 
 " Ctrl+P
 let g:ctrlp_working_path_mode = 'rw'
@@ -115,3 +118,4 @@ let g:session_autoload = 'yes'
 let g:session_autosave_periodic = 5
 let g:session_default_to_last = 1
 " let g:session_menu = 0
+
