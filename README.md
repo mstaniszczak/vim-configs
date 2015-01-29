@@ -25,6 +25,8 @@ These are the used Vim plugins:
 * **gundo**: better undo.
 * **abolish**: better search/replace.
 * **vim-bookmarks**: bookmarks.
+* **ag**: silversearcher for vim.
+* **minibufexpl**: better buffers tabs.
 
 Prerequisites
 -------------
@@ -32,6 +34,7 @@ Prerequisites
 In order to use the Vim plugins the following pieces have to be installed manually:
 
 * Exuberant ctags >= 5.5 (on ubuntu sudo apt-get install exuberant-ctags)
+* silversearcher - (sudo apt-get install silversearcher-ag)
 
 Installation
 ------------
